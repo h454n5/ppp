@@ -69,7 +69,7 @@ try {
                     $escpos = new Escpos();
                     $escpos->load($receipt_printer);
                     $escpos->printImg($rdata->data->text);
-                    echo '> Printied', "\n";
+                    echo '> Printed Job Successfully', "\n";
                 } catch (Exception $e) {
                     echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                 }
@@ -80,7 +80,7 @@ try {
                     $escpos = new Escpos();
                     $escpos->load($data->printer);
                     $escpos->printImg($rdata->data->text);
-                    echo '> Printied', "\n";
+                    echo '> Printed Job Successfully', "\n";
                 } catch (Exception $e) {
                     echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                 }
@@ -99,7 +99,7 @@ try {
                     $escpos = new Escpos();
                     $escpos->load($receipt_printer);
                     $escpos->print_data($rdata->data);
-                    echo '> Printied', "\n";
+                    echo '> Printed Job Successfully', "\n";
                 } catch (Exception $e) {
                     echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                 }
@@ -110,7 +110,7 @@ try {
                     $escpos = new Escpos();
                     $escpos->load($rdata->data->printer);
                     $escpos->printData($rdata->data);
-                    echo '> Printied', "\n";
+                    echo '> Printed Job Successfully', "\n";
                 } catch (Exception $e) {
                     echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                 }
@@ -135,7 +135,7 @@ try {
                                 $escpos = new Escpos();
                                 $escpos->load($printer);
                                 $escpos->printData($rdata->data);
-                                echo '> Printied', "\n";
+                                echo '> Printed Job Successfully', "\n";
                             } catch (Exception $e) {
                                 echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                             }
@@ -150,7 +150,7 @@ try {
                         $escpos = new Escpos();
                         $escpos->load($receipt_printer);
                         $escpos->printData($rdata->data);
-                        echo '> Printied', "\n";
+                        echo '> Printed Job Successfully', "\n";
                     } catch (Exception $e) {
                         echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                     }
@@ -163,7 +163,7 @@ try {
                     $escpos = new Escpos();
                     $escpos->load($rdata->data->printer);
                     $escpos->printData($rdata->data);
-                    echo '> Printied', "\n";
+                    echo '> Printed Job Successfully', "\n";
                 } catch (Exception $e) {
                     echo '> Error occurred, unable to print. ', $e->getMessage(), "\n";
                 }
